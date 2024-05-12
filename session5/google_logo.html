@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <style>
+        #google {
+            position: relative;
+            text-align: center;
+            border-style: solid;
+            border-top-color: #EA4335;
+            border-left-color: #FBBC05;
+            border-bottom-color: #34A853;
+            border-right-color: #4285F4;
+            border-width: 100px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 50%;
+        }
+
+        #google::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -95px;
+            transform: translateY(-50%);
+            width: 245px;
+            height: 100px;
+            background: #4285F4;
+        }
+
+        #google::after {
+            content: "";
+            position: absolute;
+            border-top: 200px solid transparent;
+            border-right: 200px solid #FFFFFF;
+            top: -100px;
+            right: -100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="google">
+    </div>
+</body>
+
+</html>
