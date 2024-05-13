@@ -1,0 +1,251 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <style>
+        #google-logo {
+            font-family: 'Product Sans', Arial, sans-serif;
+            font-size: 120px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            margin-top: 175px;
+        }
+
+        #google-logo span {
+            display: inline-block;
+            margin-right: -35px;
+            color: #4285f4;
+            /* Blue */
+        }
+
+        #google-logo span:nth-child(2) {
+            color: #ea4335;
+            /* Red */
+        }
+
+        #google-logo span:nth-child(3) {
+            color: #fbbc05;
+            /* Yellow */
+        }
+
+        #google-logo span:nth-child(4) {
+            color: #4285f4;
+            /* Blue */
+        }
+
+        #google-logo span:nth-child(5) {
+            color: #34a853;
+            /* Green */
+        }
+
+        #google-logo span:nth-child(6) {
+            color: #ea4335;
+            /* Red */
+        }
+
+        #search {
+            position: relative;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        input {
+            width: 600px;
+            height: 40px;
+            border-radius: 20px;
+            border-width: 1px;
+            padding-left: 35px;
+            border-color: #ccc;
+            font-size: medium;
+        }
+
+        #srch-icon {
+            position: absolute;
+            left: 440px;
+            top: 12px;
+            width: 15px;
+        }
+
+        #mic-icon {
+            position: absolute;
+            left: 977px;
+            top: 5px;
+            width: 40px;
+        }
+
+        #sign_in {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background-color: #4285f4;
+            color: white;
+            font-size: small;
+            font-family: 'Product Sans', Arial, sans-serif;
+            width: 60px;
+            height: 15px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #apps {
+            position: absolute;
+            top: 15px;
+            right: 60px;
+            width: 80px;
+        }
+
+        #images {
+            position: absolute;
+            width: 60px;
+            top: 19px;
+            right: 155px;
+            font-family: 'Product Sans', Arial, sans-serif;
+        }
+
+        #gmail {
+            position: absolute;
+            width: 60px;
+            top: 20px;
+            right: 220px;
+            font-family: 'Product Sans', Arial, sans-serif;
+        }
+
+        #gs {
+            position: relative;
+            margin-top: 30px;
+            margin-right: 10px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            border-radius: 5px;
+            border-style: hidden;
+            text-align: center;
+            left: 600px;
+        }
+
+        #lucky {
+            position: relative;
+            margin-top: 30px;
+            margin-right: 10px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            border-radius: 5px;
+            border-style: hidden;
+            text-align: center;
+            left: 600px;
+        }
+
+        #bar {
+            position: absolute;
+            width: 1470px;
+            bottom: 3px;
+            background-color: #ece8e8;
+            height: 50px;
+            margin-top: 200;
+        }
+
+        #about {
+            position: absolute;
+            left: 20px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #advertising {
+            position: absolute;
+            left: 80px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #business {
+            position: absolute;
+            left: 180px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #hsw {
+            position: absolute;
+            left: 265px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #privacy {
+            position: absolute;
+            right: 190px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #terms {
+            position: absolute;
+            right: 120px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+
+        #settings {
+            position: absolute;
+            right: 30px;
+            top: 15px;
+            font-family: 'Product Sans', Arial, sans-serif;
+            color: #515151;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="google-logo">
+        <span>G</span>
+        <span>o</span>
+        <span>o</span>
+        <span>g</span>
+        <span>l</span>
+        <span>e</span>
+    </div>
+    <div id="search">
+        <input type="search">
+        <div id="srch-icon">
+            <img src="images/magnifier.png" width="15px">
+        </div>
+        <div id="mic-icon">
+            <img src="images/mic-icon.png" width="40px">
+        </div>
+    </div>
+    <div>
+        <div id="gmail">Gmail</div>
+        <div id="images">Images</div>
+        <div id="apps"><img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png"></div>
+        <div id="sign_in">Sign in</div>
+    </div>
+    <button id="gs">Google Search</button>
+    <button id="lucky">I'm Feeling Lucky</button>
+    <div id="bar">
+        <div id="about">About</div>
+        <div id="advertising">Advertising</div>
+        <div id="business">Business</div>
+        <div id="hsw">How Search Works</div>
+        <div id="privacy">Privacy</div>
+        <div id="terms">Terms</div>
+        <div id="settings">Settings</div>
+    </div>
+</body>
+
+</html>
