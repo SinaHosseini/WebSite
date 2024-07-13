@@ -5,6 +5,7 @@ body{
 #search{
     width: 600px;
     border-radius: 8px;
+    background-color: rgb(230, 230, 230);
 }
 
 #login{
