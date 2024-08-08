@@ -10,5 +10,5 @@ and  ...
 
 result:
 
-![my_website7](images\screencapture-127-0-0-1-5500-index-html-2024-08-08-15_06_34.png)
+![my_website7](images\screencapture-127-0-0-1-5500-index-html-2024-08-08-15_06_34.png?raw=True)
 
